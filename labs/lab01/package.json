@@ -2,11 +2,16 @@
   "name": "lab01",
   "version": "1.0.0",
   "main": "la01p01.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.10"
+  }
 }
