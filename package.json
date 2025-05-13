@@ -8,5 +8,19 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avnii21/cpan212.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avnii21/cpan212/issues"
+  },
+  "homepage": "https://github.com/avnii21/cpan212#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }

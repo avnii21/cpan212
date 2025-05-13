@@ -1,0 +1,4 @@
+npm init -y
+scripts
+
+srtart nodemon index.js
