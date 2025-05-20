@@ -1,0 +1,5 @@
+npm init -y
+npm i express
+to package.json enter "type"= 'module;
+npm i nodemon
+nodemon index.js
