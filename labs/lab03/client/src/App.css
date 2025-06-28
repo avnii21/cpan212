@@ -1,0 +1,139 @@
+#root {
+  max-width: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* App styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  margin: 20px;
+  color: #333;
+}
+
+h2, h4 {
+  color: #2a72d6;
+  margin-bottom: 12px;
+}
+
+p {
+  font-weight: 600;
+  color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container for the two upload sections side by side */
+.upload-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+/* Each upload section box */
+.upload-section {
+  flex: 1 1 400px;
+  max-width: 450px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* Dog section below upload sections */
+.dog-section {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Forms styling */
+form {
+  margin-bottom: 15px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+button {
+  background-color: #2a72d6;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #185abc;
+}
+
+/* Images styling */
+img {
+  margin-top: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.15);
+  max-width: 100%;
+  height: auto;
+}
+.main-title {
+  font-size: 2.5rem;
+  color: #2a72d6;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
