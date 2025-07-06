@@ -1,0 +1,40 @@
+.navbar {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 16px;
+
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #425849;
+  background: #fdfdfb; 
+  
+  border:   5px double #2f2f2f;
+  border-radius: 30px;
+
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.navbar-links li a:hover,
+.navbar-links li a.active {
+  background: #8aa392;
+  color: white;
+  border: 2px double #2f2f2f;
+}

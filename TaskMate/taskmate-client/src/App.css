@@ -1,0 +1,432 @@
+.app-wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo-header {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo-text {
+  font-family: 'Shrikhand', cursive;
+  font-size: 40px; 
+  color: #425849; 
+  margin: 0;
+  
+}
+
+.homepage {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f4eb; 
+}
+
+.homepage h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #425849; 
+}
+
+.homepage button {
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: #333;
+  cursor: pointer;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #8aa392; 
+  font-family: 'Shrikhand', cursive;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: #8aa392; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #667eea; 
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.dashboard-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  color: #425849; 
+}
+
+.dashboard-box select {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.launch-button {
+  width: 100%;
+  padding: 12px;
+  background: #8aa392; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* MY TASKS */
+.mytasks-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #425849;
+}
+
+.mytasks-heading {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 30px;
+  color: #425849; 
+}
+
+.task-list {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.task-card {
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.calendar-page {
+  padding: 40px 20px;
+  min-height: 100vh;
+  color: #425849;
+}
+
+.calendar-title {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 30px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.calendar-day {
+  background: #fff;
+  color: #425849;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+}
+
+.task-day {
+  border: 2px solid #8aa392;
+  background-color: #f0f9f4;
+}
+
+.calendar-task-list {
+  margin-top: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333;
+}
+
+.calendar-task-list h3 {
+  font-family: 'Shrikhand', cursive;
+  color: #425849;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.calendar-task-card {
+  background: #ffffffd9;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+.settings-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #425849;
+  font-family: 'Shrikhand', cursive;
+}
+
+.settings-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.settings-section {
+  margin-top: 40px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.settings-section h3 {
+  font-family: 'Shrikhand', cursive;
+  color: #425849;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.pill-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 18px;
+  color: #425849;
+  background: #e0e6db;
+  border-radius: 50px;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  user-select: none;
+  position: relative;
+}
+
+.pill-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+}
+
+.pill-toggle .slider {
+  position: relative;
+  height: 26px;
+  width: 50px;
+  background-color: #ccc;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  margin-left: 12px;
+  flex-shrink: 0;
+}
+
+.pill-toggle .slider::before {
+  content: "";
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  left: 2px;
+  top: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.pill-toggle input:checked + .slider {
+  background-color: #8aa392; 
+}
+
+.pill-toggle input:checked + .slider::before {
+  transform: translateX(24px);
+}
+
+.pill-toggle:hover .slider {
+  background-color: #a0b8a2;
+}
+
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #ddd;
+}
+
+body.dark-mode .app-wrapper {
+  background-color: #2e2e2e;
+}
+
+body.dark-mode .logo-text {
+  color: #a8c0a0; 
+}
+
+
+body.dark-mode .homepage h1 {
+  color: #a8c0a0;
+}
+
+body.dark-mode .homepage button {
+  background: #333;
+  color: #ddd;
+}
+
+body.dark-mode .login-box {
+  background: #222;
+  color: #ddd;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .login-box input {
+  background: #333;
+  border: 1px solid #555;
+  color: #ddd;
+}
+
+body.dark-mode .login-box button {
+  background: #8aa392;
+  color: white;
+}
+
+
+
+body.dark-mode .dashboard-box {
+  background: #222;
+  color: #a8c0a0;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .dashboard-box select {
+  background: #333;
+  border: 1px solid #555;
+  color: #ddd;
+}
+
+body.dark-mode .launch-button {
+  background: #8aa392;
+  color: white;
+}
+
+body.dark-mode .mytasks-container {
+  color: #a8c0a0;
+}
+
+body.dark-mode .task-card {
+  background: #222;
+  color: #ddd;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .calendar-page {
+  color: #a8c0a0;
+}
+
+body.dark-mode .calendar-day {
+  background: #222;
+  color: #a8c0a0;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .task-day {
+  border-color: #8aa392;
+  background-color: #18301e;
+}
+
+body.dark-mode .calendar-task-card {
+  background: #333;
+  color: #ddd;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .settings-container {
+  color: #a8c0a0;
+}
+
+body.dark-mode .settings-section h3 {
+  color: #a8c0a0;
+}
+
+body.dark-mode .pill-toggle {
+  background: #333;
+  color: #a8c0a0;
+}
+
+body.dark-mode .pill-toggle:hover .slider {
+  background-color: #5b7a58;
+}
+
+body.dark-mode .pill-toggle .slider {
+  background-color: #555;
+}
+
+body.dark-mode .pill-toggle input:checked + .slider {
+  background-color: #8aa392;
+}
