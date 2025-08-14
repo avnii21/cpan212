@@ -19,13 +19,16 @@ const Dashboard = () => {
     }
   }, [navigate]);
 
-  const handleLaunch = () => {
-    if (platform) {
-      alert(`Launching ${platform} integration (mock)…`);
-    } else {
-      alert("Please select a platform first.");
-    }
-  };
+ const handleLaunch = () => {
+  if (platform === "Ticketmaster") {
+    navigate("/ticketmaster");
+  } else if (platform) {
+    alert(`Launching ${platform} integration (mock)…`);
+  } else {
+    alert("Please select a platform first.");
+  }
+};
+
 
   if (!user) {
     return <div>Loading...</div>;
@@ -37,8 +40,9 @@ const Dashboard = () => {
     <div className="dashboard-container">
       <div className="dashboard-box">
         <h2 style={{ fontFamily: "Shrikhand, cursive" }}>
-          Welcome, {user.name}!
-        </h2>
+  Welcome, {user.firstName ? `${user.firstName} ${user.lastName}` : "User"}!
+</h2>
+
         <p>Select a connected service below to simulate task alerts:</p>
 
         <select

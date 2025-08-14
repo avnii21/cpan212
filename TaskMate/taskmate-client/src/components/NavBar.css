@@ -38,3 +38,24 @@
   color: white;
   border: 2px double #2f2f2f;
 }
+.navlink-button {
+  /* existing styles */
+  margin-top: -12px;
+  padding: 10px 20px;
+  color: #425849;
+  background: #fdfdfb;
+  border: 5px double #2f2f2f;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  display: inline-flex;           /* use inline-flex for alignment */
+  align-items: center;            /* vertically center contents */
+  justify-content: center;        /* center horizontally */
+  height: 50px;                   /* match link height if needed */
+  user-select: none;
+  text-align: center;
+  vertical-align: middle;         /* aligns with text baseline */
+}

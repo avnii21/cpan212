@@ -7,7 +7,12 @@ import Dashboard from "./pages/Dashboard";
 import MyTasks from "./pages/MyTasks";
 import Settings from "./pages/Settings";
 import CalendarPage from "./pages/CalendarPage";
+import TicketmasterEvents from "./pages/TicketmasterEvents";
+import TicketmasterEventPage from "./pages/TicketmasterEventPage";
+
 import Layout from "./components/Layout";
+import Notifications from "./components/Notifications";
+// Remove import of PaymentForm here because it will be used inside Notifications now
 
 function App() {
   return (
@@ -21,6 +26,9 @@ function App() {
           <Route path="/mytasks" element={<MyTasks />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/calendar" element={<CalendarPage />} />
+          <Route path="/ticketmaster" element={<TicketmasterEvents />} />
+          <Route path="/notifications" element={<Notifications />} />
+          <Route path="/ticketmaster-event/:id" element={<TicketmasterEventPage />} />
         </Route>
       </Routes>
     </Router>

@@ -430,3 +430,99 @@ body.dark-mode .pill-toggle .slider {
 body.dark-mode .pill-toggle input:checked + .slider {
   background-color: #8aa392;
 }
+.mytasks-container {
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: 'Merriweather', serif;
+  padding: 0 15px;
+  color: #333;
+}
+
+.mytasks-heading {
+  font-family: 'Shrikhand', cursive;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #425849;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.input-field,
+.textarea-field,
+.select-field {
+  border: 2px solid #8aa392;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-family: 'Merriweather', serif;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus,
+.textarea-field:focus,
+.select-field:focus {
+  border-color: #425849;
+}
+
+.textarea-field {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.primary-button {
+  background-color: #425849;
+  color: white;
+  font-family: 'Shrikhand', cursive;
+  font-size: 1.1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #8aa392;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+  color: #333;
+  border: 1.5px solid #8aa392;
+}
+
+.task-card h3 {
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 8px;
+  color: #425849;
+}
+
+.no-tasks-text {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+.selected-day {
+  background-color: #4cafef !important; /* Bright blue */
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}

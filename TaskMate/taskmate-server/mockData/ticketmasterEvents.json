@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "artist": "PartyNextDoor",
+    "date": "2025-09-10T20:00:00Z",
+    "venue": "Apollo Theater",
+    "price": 75,
+    "url": "https://ticketmaster.com/event/partynextdoor"
+  },
+  {
+    "id": "2",
+    "artist": "SZA",
+    "date": "2025-09-22T19:30:00Z",
+    "venue": "The Wiltern",
+    "price": 90,
+    "url": "https://ticketmaster.com/event/sza"
+  },
+  {
+    "id": "3",
+    "artist": "Adele",
+    "date": "2025-10-15T20:00:00Z",
+    "venue": "Madison Square Garden",
+    "price": 150,
+    "url": "https://ticketmaster.com/event/adele"
+  },
+  {
+    "id": "4",
+    "artist": "Drake",
+    "date": "2025-11-05T21:00:00Z",
+    "venue": "Scotiabank Arena",
+    "price": 130,
+    "url": "https://ticketmaster.com/event/drake"
+  },
+  {
+    "id": "5",
+    "artist": "Billie Eilish",
+    "date": "2025-12-01T19:00:00Z",
+    "venue": "Staples Center",
+    "price": 95,
+    "url": "https://ticketmaster.com/event/billieeilish"
+  }
+]
